@@ -14,7 +14,17 @@
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start --blocks-manifest"
 	},
+	"prettier": "@wordpress/prettier-config",
 	"devDependencies": {
-		"@wordpress/scripts": "^31.1.0"
+		"@wordpress/eslint-plugin": "^23.0.0",
+		"@wordpress/prettier-config": "^4.37.0",
+		"@wordpress/scripts": "^31.1.0",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.7.4"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^15.10.0",
+		"@wordpress/blocks": "^15.10.0",
+		"@wordpress/i18n": "^6.10.0"
 	}
 }
